@@ -1,4 +1,6 @@
 class Hero
 
-  def initialize(params)
+  def initialize(params) do
+    
+  end
 end
