@@ -1,5 +1,7 @@
 class Team
 
+  attr_reader :name, :motto
+
   @@all = []
 
   def initialize(params)
@@ -12,7 +14,7 @@ class Team
     @@all
   end
 
-  def self.clear 
+  def self.clear
     @@all = []
   end
 end
